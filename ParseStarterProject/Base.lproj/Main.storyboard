@@ -75,10 +75,10 @@
             </objects>
             <point key="canvasLocation" x="766" y="406"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign In View Controller-->
         <scene sceneID="7Ea-Q6-htu">
             <objects>
-                <viewController id="2fN-fh-aNN" sceneMemberID="viewController">
+                <viewController id="2fN-fh-aNN" customClass="signInViewController" customModule="template" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wjw-kk-3Se">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,7 +87,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ccO-qy-VkP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1173" y="406"/>
+            <point key="canvasLocation" x="1181" y="406"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lud-x7-vKM">
