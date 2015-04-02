@@ -692,10 +692,93 @@ SWIFT_CLASS("_TtC8template13YokoTextField")
 @end
 
 
-SWIFT_CLASS("_TtC8template20signInViewController")
-@interface signInViewController : UIViewController
+SWIFT_CLASS("_TtC8template23dashboardViewController")
+@interface dashboardViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * username;
+@property (nonatomic, weak) IBOutlet UIImageView * profile;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (void)image;
+- (IBAction)signout:(id)sender;
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (instancetype)initWithCoder:(NSCoder *)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIActionSheet;
+@class UIImagePickerController;
+
+SWIFT_CLASS("_TtC8template21pictureViewController")
+@interface pictureViewController : UIViewController <UIActionSheetDelegate, UIImagePickerControllerDelegate>
+@property (nonatomic, weak) IBOutlet UIImageView * profile;
+@property (nonatomic, weak) IBOutlet UIButton * addImage;
+@property (nonatomic, weak) IBOutlet UIButton * done;
+- (void)viewDidLoad;
+- (IBAction)add:(id)sender;
+- (void)actionSheet:(UIActionSheet *)myActionSheet clickedButtonAtIndex:(NSInteger)buttonIndex;
+- (void)didReceiveMemoryWarning;
+- (IBAction)doneLogic:(id)sender;
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo;
+- (IBAction)signout:(id)sender;
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (instancetype)initWithCoder:(NSCoder *)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8template21settingViewController")
+@interface settingViewController : UIViewController <UIActionSheetDelegate, UIImagePickerControllerDelegate>
+@property (nonatomic, weak) IBOutlet UIImageView * profile;
+@property (nonatomic, weak) IBOutlet UIButton * img;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (void)image;
+- (IBAction)imgAction:(id)sender;
+- (void)actionSheet:(UIActionSheet *)myActionSheet clickedButtonAtIndex:(NSInteger)buttonIndex;
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo;
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (instancetype)initWithCoder:(NSCoder *)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC8template20signInViewController")
+@interface signInViewController : UIViewController <UITextFieldDelegate>
+@property (nonatomic, weak) IBOutlet UITextField * username;
+@property (nonatomic, weak) IBOutlet UITextField * password;
+@property (nonatomic, weak) IBOutlet UIButton * signin;
+- (void)viewDidLoad;
+- (BOOL)textFieldShouldReturn:(UITextField *)textField;
+- (void)didReceiveMemoryWarning;
+- (IBAction)sign:(id)sender;
+- (void)signInLogic;
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (instancetype)initWithCoder:(NSCoder *)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSSet;
+@class UIEvent;
+
+SWIFT_CLASS("_TtC8template20signupViewController")
+@interface signupViewController : UIViewController <UITextFieldDelegate>
+@property (nonatomic) NSInteger length;
+@property (nonatomic) NSInteger uppercase;
+@property (nonatomic) NSInteger number;
+@property (nonatomic, weak) IBOutlet UIButton * cancel;
+@property (nonatomic, weak) IBOutlet UIButton * submit;
+@property (nonatomic, weak) IBOutlet UITextField * pass1;
+@property (nonatomic, weak) IBOutlet UITextField * pass;
+@property (nonatomic, weak) IBOutlet UITextField * username;
+@property (nonatomic, weak) IBOutlet UITextField * email;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)submit:(id)sender;
+- (IBAction)cancel:(id)sender;
+- (BOOL)textFieldShouldReturn:(UITextField *)textField;
+- (void)submitLogic;
+- (BOOL)valid:(NSString *)input from:(NSString *)from;
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (instancetype)initWithCoder:(NSCoder *)aDecoder OBJC_DESIGNATED_INITIALIZER;

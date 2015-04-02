@@ -11,4 +11,5 @@
 //#import <ParseFacebookUtils/PFFacebookUtils.h>
 #import "ProgressHUD.h"
 #import "Chameleon.h"
+#import "camera.h"
 #endif

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07165DC71ACD35A200CE1F88 /* dashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07165DC61ACD35A200CE1F88 /* dashboardViewController.swift */; };
+		07165DC91ACD362500CE1F88 /* pictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07165DC81ACD362500CE1F88 /* pictureViewController.swift */; };
+		07165DCC1ACD82F500CE1F88 /* camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 07165DCB1ACD82F500CE1F88 /* camera.m */; };
+		073F93511ACD1EDB00B6E4CA /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073F93501ACD1EDB00B6E4CA /* signupViewController.swift */; };
 		0742C4B31ACC971E00A83F5A /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0742C4B01ACC971E00A83F5A /* ProgressHUD.bundle */; };
 		0742C4B41ACC971E00A83F5A /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742C4B21ACC971E00A83F5A /* ProgressHUD.m */; };
 		0742C4D31ACC97E400A83F5A /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742C4B61ACC97E400A83F5A /* AsyncButton.swift */; };
@@ -52,6 +56,7 @@
 		0742C5621ACC99C200A83F5A /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742C55A1ACC99C200A83F5A /* UIColor+Chameleon.m */; };
 		0742C5631ACC99C200A83F5A /* UIColor+CIELAB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742C55C1ACC99C200A83F5A /* UIColor+CIELAB.m */; };
 		0742C5641ACC99C200A83F5A /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742C55E1ACC99C200A83F5A /* UIViewController+Chameleon.m */; };
+		074E665E1ACDD93D00A282FA /* settingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E665D1ACDD93D00A282FA /* settingViewController.swift */; };
 		0751B5901ACCA19D006E22E2 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0751B58F1ACCA19D006E22E2 /* signInViewController.swift */; };
 		81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814A1A49DA1800E65899 /* AppDelegate.swift */; };
 		81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814C1A49DA1800E65899 /* ViewController.swift */; };
@@ -70,6 +75,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07165DC61ACD35A200CE1F88 /* dashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dashboardViewController.swift; sourceTree = "<group>"; };
+		07165DC81ACD362500CE1F88 /* pictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pictureViewController.swift; sourceTree = "<group>"; };
+		07165DCA1ACD82F500CE1F88 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		07165DCB1ACD82F500CE1F88 /* camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = camera.m; sourceTree = "<group>"; };
+		073F93501ACD1EDB00B6E4CA /* signupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
 		0742C4B01ACC971E00A83F5A /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		0742C4B11ACC971E00A83F5A /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		0742C4B21ACC971E00A83F5A /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
@@ -125,6 +135,7 @@
 		0742C55C1ACC99C200A83F5A /* UIColor+CIELAB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CIELAB.m"; sourceTree = "<group>"; };
 		0742C55D1ACC99C200A83F5A /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chameleon.h"; sourceTree = "<group>"; };
 		0742C55E1ACC99C200A83F5A /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		074E665D1ACDD93D00A282FA /* settingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingViewController.swift; sourceTree = "<group>"; };
 		0751B58F1ACCA19D006E22E2 /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
 		81BA81451A49DA1800E65899 /* template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BA81491A49DA1800E65899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -271,7 +282,11 @@
 			children = (
 				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
 				81BA814C1A49DA1800E65899 /* ViewController.swift */,
+				07165DC81ACD362500CE1F88 /* pictureViewController.swift */,
 				0751B58F1ACCA19D006E22E2 /* signInViewController.swift */,
+				073F93501ACD1EDB00B6E4CA /* signupViewController.swift */,
+				07165DC61ACD35A200CE1F88 /* dashboardViewController.swift */,
+				074E665D1ACDD93D00A282FA /* settingViewController.swift */,
 				81BA814E1A49DA1800E65899 /* Main.storyboard */,
 				81BA81511A49DA1800E65899 /* Images.xcassets */,
 				81BA81481A49DA1800E65899 /* Supporting Files */,
@@ -291,6 +306,8 @@
 		81BA816A1A49DB5600E65899 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07165DCA1ACD82F500CE1F88 /* camera.h */,
+				07165DCB1ACD82F500CE1F88 /* camera.m */,
 				0742C5511ACC99C200A83F5A /* Chameleon */,
 				0742C4EF1ACC997000A83F5A /* TextFieldEffects */,
 				0742C4B51ACC97E400A83F5A /* Spring */,
@@ -420,16 +437,20 @@
 				0742C4EA1ACC97E400A83F5A /* SpringTextView.swift in Sources */,
 				0742C5641ACC99C200A83F5A /* UIViewController+Chameleon.m in Sources */,
 				81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */,
+				07165DCC1ACD82F500CE1F88 /* camera.m in Sources */,
 				0742C4FA1ACC997000A83F5A /* HoshiTextField.swift in Sources */,
 				0742C4DC1ACC97E400A83F5A /* DesignableView.swift in Sources */,
+				07165DC91ACD362500CE1F88 /* pictureViewController.swift in Sources */,
 				0742C4FD1ACC997000A83F5A /* JiroTextField.swift in Sources */,
 				0742C4E51ACC97E400A83F5A /* SpringAnimation.swift in Sources */,
 				0742C4E41ACC97E400A83F5A /* Spring.swift in Sources */,
+				074E665E1ACDD93D00A282FA /* settingViewController.swift in Sources */,
 				0742C4E01ACC97E400A83F5A /* LoadingView.swift in Sources */,
 				0742C4FC1ACC997000A83F5A /* IsaoTextField.swift in Sources */,
 				0742C4E91ACC97E400A83F5A /* SpringTextField.swift in Sources */,
 				0742C4D61ACC97E400A83F5A /* DesignableButton.swift in Sources */,
 				0742C4DA1ACC97E400A83F5A /* DesignableTextField.swift in Sources */,
+				073F93511ACD1EDB00B6E4CA /* signupViewController.swift in Sources */,
 				0742C5601ACC99C200A83F5A /* Constants.swift in Sources */,
 				0742C4D31ACC97E400A83F5A /* AsyncButton.swift in Sources */,
 				0742C4DF1ACC97E400A83F5A /* KeyboardLayoutConstraint.swift in Sources */,
@@ -446,6 +467,7 @@
 				0742C4EE1ACC97E400A83F5A /* UnwindSegue.swift in Sources */,
 				0751B5901ACCA19D006E22E2 /* signInViewController.swift in Sources */,
 				0742C5621ACC99C200A83F5A /* UIColor+Chameleon.m in Sources */,
+				07165DC71ACD35A200CE1F88 /* dashboardViewController.swift in Sources */,
 				0742C4EC1ACC97E400A83F5A /* TransitionManager.swift in Sources */,
 				0742C4D51ACC97E400A83F5A /* BlurView.swift in Sources */,
 				0742C55F1ACC99C200A83F5A /* ChameleonStatusBar.m in Sources */,
